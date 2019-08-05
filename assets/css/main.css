@@ -3229,7 +3229,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: linear-gradient(180deg, #00d2ff, #3a7db5);
+			background-image: linear-gradient(180deg, #3a7db5,#00d2ff);
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3253,7 +3253,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #3a7db5;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3271,7 +3271,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: auto, auto, auto 175%;
 			}
 
 		}
